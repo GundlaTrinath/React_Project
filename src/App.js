@@ -1,15 +1,14 @@
 import './App.css';
-// import { Container, Card, Table } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Profile from './Components/profiles';
+import Cards from './Components/Cards';
 
 function App() {
   return (
     <div className="App">
-      <section className='bg-light py-3'>
-        <h1 className='text-dark mb-3'>Our Employees</h1>
-        <div>
-        <Profile/>
+      <section className='Profiles'>
+        <div className='Containers'>
+          <h1>Our Employees</h1>
+          <Cards />
         </div>
       </section>
     </div>

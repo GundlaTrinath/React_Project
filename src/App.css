@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.Profiles h1{
+  color: darkcyan;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
